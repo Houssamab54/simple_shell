@@ -19,7 +19,7 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o jash
 
 Example:
 ```
-$ echo "echo 'alx'" | ./jash
+$ echo "echo 'alx'" | ./jash 
 'alx'
 $
 ```
@@ -42,7 +42,6 @@ $ ./jash text
 'alx'
 $
 ```
-
 ### Environment
 
 Upon invocation, **jash** receives and copies the environment of the parent process in which it was executed. This environment is an array of *name-value* strings describing variables in the format *NAME=VALUE*. A few key environmental variables are:
